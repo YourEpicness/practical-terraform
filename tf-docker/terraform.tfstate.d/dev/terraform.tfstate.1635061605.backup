@@ -1,0 +1,35 @@
+{
+  "version": 4,
+  "terraform_version": "1.0.2",
+  "serial": 36,
+  "lineage": "f3187f49-7abe-d310-48d0-5cbbafa9bc1f",
+  "outputs": {},
+  "resources": [
+    {
+      "module": "module.image[\"influxdb\"]",
+      "mode": "managed",
+      "type": "docker_image",
+      "name": "container_image",
+      "provider": "provider[\"registry.terraform.io/kreuzwerker/docker\"]",
+      "instances": [
+        {
+          "schema_version": 0,
+          "attributes": {
+            "build": [],
+            "force_remove": null,
+            "id": "sha256:3d28107b0899bbd9eb6acb17e55b64fa976ee0cdbff7c1a31ec08c48242ba8deinfluxdb:latest",
+            "keep_locally": null,
+            "latest": "sha256:3d28107b0899bbd9eb6acb17e55b64fa976ee0cdbff7c1a31ec08c48242ba8de",
+            "name": "influxdb:latest",
+            "output": null,
+            "pull_trigger": null,
+            "pull_triggers": null,
+            "repo_digest": "influxdb@sha256:ed884c6895724a4677de78e84df0246ced5d898216cd6d69332bebca2da22fd6"
+          },
+          "sensitive_attributes": [],
+          "private": "bnVsbA=="
+        }
+      ]
+    }
+  ]
+}

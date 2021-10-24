@@ -1,0 +1,5 @@
+/tf-aws-vpc-hardcode
+/mtc-terraform
+/ec2
+.env/
+.terraform/
