@@ -1,5 +1,8 @@
 # --- database/variables.tf ---
 
+variable "dbname" {
+
+}
 variable "db_storage" {
 
 }
@@ -8,7 +11,7 @@ variable "db_instance_class" {
 
 }
 
-variable "dbname" {
+variable "dbuser" {
 
 }
 

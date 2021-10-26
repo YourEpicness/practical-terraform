@@ -5,7 +5,7 @@ resource "aws_db_instance" "mtc_db" {
   engine                 = "mysql"
   instance_class         = var.db_engine_version
   name                   = var.db_subnet_group_name
-  username               = var.dbname
+  username               = var.dbuser
   password               = var.dbpassword
   db_subnet_group_name   = var.db_subnet_group_name
   vpc_security_group_ids = var.vpc_security_group_ids

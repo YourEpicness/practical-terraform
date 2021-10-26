@@ -23,6 +23,6 @@ module "database" {
   dbpassword             = "haHAA!n1ce"
   db_identifier          = "mtc-db"
   skip_db_snapshot       = true
-  db_subnet_group_name   = ""
-  vpc_security_group_ids = []
+  db_subnet_group_name   = module.networking.db_subnet_group_name[0]
+  vpc_security_group_ids = module.networking.db_security_group
 }
